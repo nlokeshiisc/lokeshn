@@ -7,9 +7,11 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 70
+weight: 50
 
-title: 'Recent & Upcoming Talks'
+date_format: Jan 2006
+
+title: 'Talks'
 subtitle:
 
 content:
@@ -37,5 +39,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 4
 ---
