@@ -34,3 +34,13 @@ design:
   #   4 = Citation (publication only)
   view: 4
 ---
+
+
+1. System and Method for Online Model Management based on Usefulness of Data with respect to
+different data quality metrics
+1. Framework for Explainable Data Readiness Metrics and Interactive Remediation
+1. A System and Method to Select Minimal Subset of Informative Clients for Federated Learning
+using Influence Functions
+1. A System and Method to Assess the Quality of Unlabeled Data in Unsupervised Learning Settings
+1. An Outlier Aware Federated Learning System and Dynamic Method to Determine Globally
+Consistent Outliers from Individual Clients’ Private Data
