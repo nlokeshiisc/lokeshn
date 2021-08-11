@@ -1,10 +1,10 @@
 ---
-title: Invited talk at JDBI, Kolkatta
+title: Invited talk at the College of Engg. Guindy, Anna University.
 
-event: Department of Management, JDBI.
+event: Department of CS - Machine Learning Class
 # event_url: https://example.org
 
-location: Kolkatta, India
+location: Chennai, India
 # address:
 #   street: 450 Serra Mall
 #   city: Stanford
@@ -12,12 +12,12 @@ location: Kolkatta, India
 #   postcode: '94305'
 #   country: United States
 
-summary: An introductory talk on importance of data cleaning in Machine Learning applications.
+summary: A guest lecture delivered in the Machine Learning class on the topic - Outsmarting the outliers in attributed network representation learning.
 # abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-07-01"
+date: "2020-02-11"
 # date_end: "2030-06-01T15:00:00Z"
 # all_day: false
 
@@ -39,9 +39,9 @@ links:
 #   icon_pack: fab
 #   name: Follow
 #   url: https://twitter.com/georgecushen
-url_code: ""
-url_pdf: "uploads/talks/jdbi_talk.pdf"
-url_slides: "uploads/talks/jdbi_talk.pptx"
+# url_code: "uploads/talks/ceg_outliers.ipynb"
+url_pdf: "uploads/talks/ceg_outliers_talk.pdf"
+# url_slides: "uploads/talks/jdbi_talk.pptx"
 url_video: ""
 
 # Markdown Slides (optional).
@@ -61,10 +61,10 @@ projects:
 ---
 
 <!-- {{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
+Click on the **pdf** button above to access the notes that I used during the lecture. The **code** gives a demo of the ```RBF networks``` and its assiciation with ```K-Means``` algorithm.
+{{% /callout %}} -->
 
-Slides can be added in a few ways:
+<!-- Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file

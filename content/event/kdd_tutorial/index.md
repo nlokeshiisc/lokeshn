@@ -1,5 +1,5 @@
 ---
-title: Overview and importance of data quality for machine learning tasks
+title: KDD'20 Tutorial on Overview and importance of data quality for machine learning tasks
 
 event: KDD'20 Tutorial
 # event_url: https://example.org
@@ -12,11 +12,12 @@ location: Proceedings of the 26th ACM SIGKDD International Conference on Knowled
 #   postcode: '94305'
 #   country: United States
 
-summary: It is well understood from literature that the performance of a machine learning (ML) model is upper bounded by the quality of the data. While researchers and practitioners have focused on improving the quality of models (such as neural architecture search and automated feature selection), there are limited efforts towards improving the data quality. One of the crucial requirements before consuming datasets for any application is to understand the dataset at hand and failure to do so can result in inaccurate analytics and unreliable decisions. Assessing the quality of the data across intelligently designed metrics and developing corresponding transformation operations to address the quality gaps helps to reduce the effort of a data scientist for iterative debugging of the ML pipeline to improve model performance. This tutorial highlights the importance of analysing data quality in terms of its value for machine learning applications. This tutorial surveys all the important data quality related approaches discussed in literature, focusing on the intuition behind them, highlighting their strengths and similarities, and illustrates their applicability to real-world problems. Finally we will discuss the interesting work IBM Research is doing in this space.
+summary: A tutorial on importance of data quality in ML. The talk surveys various techniques used to clean different enterprise data such as tabular and free flowing text. 
+# It is well understood from literature that the performance of a machine learning (ML) model is upper bounded by the quality of the data. While researchers and practitioners have focused on improving the quality of models (such as neural architecture search and automated feature selection), there are limited efforts towards improving the data quality. One of the crucial requirements before consuming datasets for any application is to understand the dataset at hand and failure to do so can result in inaccurate analytics and unreliable decisions. Assessing the quality of the data across intelligently designed metrics and developing corresponding transformation operations to address the quality gaps helps to reduce the effort of a data scientist for iterative debugging of the ML pipeline to improve model performance. This tutorial highlights the importance of analysing data quality in terms of its value for machine learning applications. This tutorial surveys all the important data quality related approaches discussed in literature, focusing on the intuition behind them, highlighting their strengths and similarities, and illustrates their applicability to real-world problems. Finally we will discuss the interesting work IBM Research is doing in this space.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-23-08"
+date: "2020-08-23"
 # date_end: "2030-06-01T15:00:00Z"
 # all_day: false
 
@@ -58,6 +59,8 @@ url_video: "https://www.youtube.com/watch?v=30uRhUZ78gQ"
 projects:
 # - example
 ---
+
+It is well understood from literature that the performance of a machine learning (ML) model is upper bounded by the quality of the data. While researchers and practitioners have focused on improving the quality of models (such as neural architecture search and automated feature selection), there are limited efforts towards improving the data quality. One of the crucial requirements before consuming datasets for any application is to understand the dataset at hand and failure to do so can result in inaccurate analytics and unreliable decisions. Assessing the quality of the data across intelligently designed metrics and developing corresponding transformation operations to address the quality gaps helps to reduce the effort of a data scientist for iterative debugging of the ML pipeline to improve model performance. This tutorial highlights the importance of analysing data quality in terms of its value for machine learning applications. This tutorial surveys all the important data quality related approaches discussed in literature, focusing on the intuition behind them, highlighting their strengths and similarities, and illustrates their applicability to real-world problems. Finally we will discuss the interesting work IBM Research is doing in this space.
 
 <!-- {{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
