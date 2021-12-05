@@ -28,7 +28,7 @@ education:
   - course: PhD in Computer Science and Engineering 
     institution: IIT Bombay #(www.cse.iitb.ac.in)
     year: 2021 - Present
-  - course: M.E. in Computer Science
+  - course: M.Tech. in Computer Science
     institution: IISc Bangalore #(www.csa.iisc.ac.in)
     year: 2019
   - course: B.E. in Computer Science
