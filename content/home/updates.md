@@ -11,6 +11,8 @@ subtitle: ""
 weight: 30
 ---
 
+- :page_with_curl: One research track paper accepted to AAAI'22
+- :memo: KDD'21 tutorial on data quality 
 - :memo: Serving in the PC of CODS-COMAD 2021 Research track
 - :memo: Serving in the PC of AIMLSystems 2021 Industry track
 - :school: Started PhD at IIT Bombay

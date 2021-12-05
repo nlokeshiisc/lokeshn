@@ -25,7 +25,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Computer Science
+  - course: PhD in Computer Science and Engineering 
     institution: IIT Bombay #(www.cse.iitb.ac.in)
     year: 2021 - Present
   - course: M.E. in Computer Science
