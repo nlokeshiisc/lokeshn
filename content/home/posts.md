@@ -41,4 +41,4 @@ design:
 ---
 
 
-1. [Meta Learning](uploads/posts/meta-learning/MetaLearning.html)
+<!-- 1. [Meta Learning](uploads/posts/meta-learning/MetaLearning.html) -->
