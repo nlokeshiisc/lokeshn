@@ -4,7 +4,7 @@ authors:
 - admin
 - Ruhi sharma Mittal
 - Ramasuri Narayanam
-date: ""
+date: "Feb 22, 2022"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -20,9 +20,9 @@ publication_types: ["1"]
 publication: Proceedings of the AAAI Conference on Artificial Intelligence
 publication_short: AAAI'22
 
-abstract: TBD
+abstract: Federated Learning (FL) is a machine learning paradigm in which multiple clients participate to collectively learn a global machine learning model at the central server. It is plausible that not all the data owned by each client is relevant to the server's learning objective. The updates incorporated from irrelevant data could be detrimental to the global model. The task of selecting relevant data is explored in traditional machine learning settings where the assumption is that all the data is available in one place. In FL settings, the data is distributed across multiple clients and the server can't introspect it. This precludes the application of traditional solutions to selecting relevant data here. In this paper, we propose an approach called Federated Learning with Relevant Data (FLRD), that facilitates clients to derive updates using relevant data. Each client learns a model called Relevant Data Selector (RDS) that is private to itself to do the selection. This in turn helps in building an effective global model. We perform experiments with multiple real-world datasets to demonstrate the efficacy of our solution. The results show (a) the capability of FLRD to identify relevant data samples at each client locally and (b) the superiority of the global model learned by FLRD over other baseline algorithms.
 # Summary. An optional shortened abstract.
-summary: TBD
+summary: Using Reinforcement Learning based techniques to enable clients in Federated Learning derive updates only from relevant data.
 
 tags:
 - Source Themes
@@ -34,9 +34,9 @@ links:
 # url_pdf: https://ojs.aaai.org/index.php/AAAI/article/view/17093/16900
 # url_code: '#'
 # url_dataset: '#'
-# url_poster: 'uploads/papers/sfedavg/poster.pdf'
+url_poster: 'uploads/papers/flrd/poster.pdf'
 # url_project: ''
-# url_slides: 'uploads/'
+url_slides: 'uploads/papers/sfedavg/slides.pdf'
 # url_source: '#'
 # url_video: 'https://slideslive.com/38949109/game-of-gradients-mitigating-irrelevant-clients-in-federated-learning'
 
@@ -60,15 +60,5 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
