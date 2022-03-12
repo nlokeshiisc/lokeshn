@@ -36,7 +36,7 @@ links:
 # url_dataset: '#'
 url_poster: 'uploads/papers/flrd/poster.pdf'
 # url_project: ''
-url_slides: 'uploads/papers/sfedavg/slides.pdf'
+url_slides: 'uploads/papers/flrd/slides.pdf'
 # url_source: '#'
 # url_video: 'https://slideslive.com/38949109/game-of-gradients-mitigating-irrelevant-clients-in-federated-learning'
 
