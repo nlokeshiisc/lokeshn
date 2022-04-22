@@ -6,7 +6,7 @@ title: Lokesh Nagalapatti
 superuser: true
 
 # Role/position/tagline
-role: Research Scholar with CS Dept, IITB.
+role: Research Scholar with CSE Dept, IITB.
 
 # Organizations/Affiliations to show in About widget
 organizations:
