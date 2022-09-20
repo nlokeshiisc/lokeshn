@@ -11,17 +11,17 @@ subtitle: ""
 weight: 30
 ---
 
-- :page_with_curl: Learning Recourse on instance environment paper accepted to NeurIPS'22
+- :page_with_curl: Learning Recourse on instance environment paper accepted at NeurIPS'22
 - :memo: Serving in the PC of AAAI 2023 Research track
 - :memo: Serving in the PC of AIMLSystems 2022 Research track
 - :mega:Teaching [Linear Algebra](https://gate.nptel.ac.in/mentor_sessions.html) for GATE in NPTEL. [Videos](https://www.youtube.com/channel/UCf_xCyK6V3vqCa38oZnOcLQ) available here! 
-- :page_with_curl: Federated Learning with Relevant Data paper accepted to AAAI'22
+- :page_with_curl: Federated Learning with Relevant Data paper accepted at AAAI'22
 - :memo: KDD'21 tutorial on data quality 
 - :memo: Serving in the PC of CODS-COMAD 2021 Research track
 - :memo: Serving in the PC of AIMLSystems 2021 Industry track
-- :school: Started PhD at IIT Bombay
-- :sound: Delivered a guest lecture at JDBI, Kolkatta
-- :sound: Delivered a guest lecture at CEG on social networks
+- :school: Started PhD with IIT Bombay
+- :sound: Delivered a guest lecture  on "data quality for Machine Learning" at JDBI, Kolkatta
+- :sound: Delivered a guest lecture on "outsmarting outliers in social networks" at CEG on social networks
 - :page_with_curl: One short paper accepted at ICDE 2021
 - :page_with_curl: One research track paper accepted at AAAI 2021
 - :school: Graduated with Masters from IISc and joining IBM Research
