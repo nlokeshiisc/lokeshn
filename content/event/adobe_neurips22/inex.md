@@ -12,8 +12,7 @@ location: Bangalore, India
 #   postcode: '94305'
 #   country: United States
 
-summary: A detailed talk on my Neurips'22 paper Learning Recourse on instance environment. Thanks to Ramasuri for the invitation. 
-
+summary: A detailed talk on my Neurips'22 paper Learning Recourse on instance environment to enhance prediction accuracy. 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -63,3 +62,5 @@ projects:
 <!-- {{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /callout %}}
+
+**Abstract**: Machine Learning models are often susceptible to poor performance on instances sampled from bad environments. For example, an image classifier could provide low accuracy on images captured under low lighting conditions. In high stake ML applications, such as AI-driven medical diagnostics, a better option could be to provide recourse in the form of alternative environment settings in which to recapture the instance for more reliable diagnostics. In this paper, we propose a model called *RecourseNet* that learns to apply recourse on the space of environments so that the recoursed instances are amenable to better predictions by the classifier.  Learning to output optimal recourse is challenging because we do not assume access to the underlying physical process that generates the recoursed instances. Also, the optimal setting could be instance-dependent --- for example the best camera angle for object recognition could be a function of the object's shape. We propose a novel three-level training method that (a) Learns a classifier that is optimized for high performance under recourse, (b) Learns a recourse predictor when the training data may contain only limited instances under good environment settings, and (c) Triggers recourse selectively only when recourse is likely to improve classifier confidence.

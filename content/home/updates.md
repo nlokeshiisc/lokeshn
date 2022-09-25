@@ -11,8 +11,8 @@ subtitle: ""
 weight: 30
 ---
 
-- :loud_sound: Delivered on invited talk on "Learning Recourse on instance environment" at Adobe Research
-- :page_with_curl: Our paper "Learning Recourse on instance environment to enhance prediction accuracy" accepted at NeurIPS'22
+- :loud_sound: Delivered an invited talk on "Learning Recourse on instance environment" at Adobe Research
+- :page_with_curl: Learning Recourse on instance environment to enhance prediction accuracy accepted at NeurIPS'22
 - :memo: Serving in the PC of AAAI 2023 Research track
 - :memo: Serving in the PC of AIMLSystems 2022 Research track
 - :mega:Teaching [Linear Algebra](https://gate.nptel.ac.in/mentor_sessions.html) for GATE in NPTEL. [Videos](https://www.youtube.com/channel/UCf_xCyK6V3vqCa38oZnOcLQ) available here! 
