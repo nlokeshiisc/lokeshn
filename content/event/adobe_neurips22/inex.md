@@ -17,7 +17,7 @@ summary: A detailed talk on my Neurips'22 paper Learning Recourse on instance en
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-07-01"
+date: "2022-09-23"
 # date_end: "2030-06-01T15:00:00Z"
 # all_day: false
 
