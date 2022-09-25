@@ -11,7 +11,8 @@ subtitle: ""
 weight: 30
 ---
 
-- :page_with_curl: Learning Recourse on instance environment paper accepted at NeurIPS'22
+- :loud_sound: Delivered on invited talk on "Learning Recourse on instance environment" at Adobe Research
+- :page_with_curl: Our paper "Learning Recourse on instance environment to enhance prediction accuracy" accepted at NeurIPS'22
 - :memo: Serving in the PC of AAAI 2023 Research track
 - :memo: Serving in the PC of AIMLSystems 2022 Research track
 - :mega:Teaching [Linear Algebra](https://gate.nptel.ac.in/mentor_sessions.html) for GATE in NPTEL. [Videos](https://www.youtube.com/channel/UCf_xCyK6V3vqCa38oZnOcLQ) available here! 
@@ -20,8 +21,8 @@ weight: 30
 - :memo: Serving in the PC of CODS-COMAD 2021 Research track
 - :memo: Serving in the PC of AIMLSystems 2021 Industry track
 - :school: Started PhD with IIT Bombay
-- :sound: Delivered a guest lecture  on "data quality for Machine Learning" at JDBI, Kolkatta
-- :sound: Delivered a guest lecture on "outsmarting outliers in social networks" at CEG on social networks
+- :loud_sound: Delivered a guest lecture  on "data quality for Machine Learning" at JDBI, Kolkatta
+- :loud_sound: Delivered a guest lecture on "outsmarting outliers in social networks" at CEG on social networks
 - :page_with_curl: One short paper accepted at ICDE 2021
 - :page_with_curl: One research track paper accepted at AAAI 2021
 - :school: Graduated with Masters from IISc and joining IBM Research
