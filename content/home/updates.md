@@ -11,7 +11,7 @@ subtitle: ""
 weight: 30
 ---
 
-- :loud_sound: Presented a Tutorial on [Gaussian Process](uploads/talks.gaussian_process_tutorial.pdf) in CS 337.
+- :loud_sound: Presented a Tutorial on [Gaussian Process](https://nlokesh.netlify.app/uploads/talks/gaussian_processes_tutorial.pdf) in CS 337.
 - :loud_sound: Delivered an invited talk on "Learning Recourse on instance environment" at Adobe Research
 - :page_with_curl: Learning Recourse on instance environment to enhance prediction accuracy accepted at NeurIPS'22
 - :memo: Serving in the PC of AAAI 2023 Research track
