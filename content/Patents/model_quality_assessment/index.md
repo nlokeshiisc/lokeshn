@@ -1,44 +1,46 @@
 ---
-title: "Learning Recourse on Instance Environment to Enhance Prediction Accuracy"
+title: "Quality assessment of machine-learning model dataset"
 authors:
-- Lokesh Nagalapatti
-- Guntakanti Sai Koushik
-- Abir De
-- Sunita Sarawagi
-date: "2022-11-28"
-doi: "TBD"
+- Hima Patel
+- Lokesh Nagalapatt
+- Naveen Panwar
+- Nitin Gupta
+- Ruhi Sharma Mittal
+- Sameep Mehta
+- Shanmukha Chaitanya Guttula
+- Shazia Afzal
+date: "2022-03-31"
+# doi: "https://doi.org/10.1145/3336191.3371788"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: ""
+publishDate: "2022-3-31"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["8"]
 
 # Publication name and optional abbreviated publication name.
-publication: Advances in Neural Information Processing Systems 35 (NeurIPS 2022)
-publication_short: NeurIPS'22
+publication: United States Patent Application Publication
+publication_short: USPTO
 
-abstract: Machine Learning models are often susceptible to poor performance on instances sampled from bad environments. For example, an image classifier could provide low accuracy on images captured under low lighting conditions. In high stake ML applications, such as AI-driven medical diagnostics, a better option could be to provide recourse in the form of  alternative environment settings in which to recapture the instance for more reliable diagnostics. In this paper, we propose a model called {\em RecourseNet} that learns to apply recourse on the space of environments so that the recoursed instances are amenable to better predictions by the classifier.   Learning to output optimal recourse is challenging because we do not assume access to the underlying physical process that generates the recoursed instances. Also, the optimal setting could be instance-dependent --- for example the best camera angle for object recognition could be a function of the object's shape. We propose a novel three-level training method that (a) Learns a classifier that is optimized for high performance under recourse, (b) Learns a recourse predictor when the training data may contain only limited instances under good environment settings, and (c) Triggers recourse selectively only when recourse is likely to improve classifier confidence.
-
+abstract: One embodiment provides a method , including obtaining a dataset for use in building a machine - learning model ; assessing a quality of the dataset ,wherein the quality is assessed in view of an effect of the dataset on a performance of the machine - learning model , wherein the assessing comprises scoring the dataset with respect to each of a plurality of attributes of the dataset ; for each of the plurality of attributes having a low quality score , providing at least one recommendation for increasing the quality of the dataset with respect to the attribute having a low quality score ; and for each of the plurality of attributes having a low quality score , providing an explanation explaining a cause of the low quality score for the attribute having a low quality score 
 # Summary. An optional shortened abstract.
-summary: Learning recourse on the environment that generates data instances. 
+summary: Assessing data quality metrics for Machine Learning.
 tags:
 - Source Themes
 featured: true
 
 # links:
 # - name: Paper
-#   url: 
-url_pdf: 'uploads/papers/img_recourse/recourse.pdf'
+url: https://patents.google.com/patent/US20220101182A1/en 
+url_pdf: https://patentimages.storage.googleapis.com/9d/85/e3/7ffdefd24c8bbd/US20220101182A1.pdf
 # url_code: 'https://github.com/sambaranban/ONE?utm_source=catalyzex.com'
 # url_dataset: '#'
 # url_poster: 'uploads/papers/one/poster.pdf'
 # url_project: ''
-url_slides: 'uploads/papers/img_recourse/recourse-short.pdf'
-url_slides_long: 'uploads/talks/adobe_talk_slides.pdf'
+# url_slides: 'uploads/papers/one/one.pdf'
 # url_source: '#'
 # url_video: 'https://slideslive.com/38949109/game-of-gradients-mitigating-irrelevant-clients-in-federated-learning'
 
