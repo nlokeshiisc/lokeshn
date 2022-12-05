@@ -34,7 +34,7 @@ featured: true
 
 # links:
 # - name: Paper
-url: https://patents.google.com/patent/US20220101182A1/en 
+# url: https://patents.google.com/patent/US20220101182A1/en 
 url_pdf: https://patentimages.storage.googleapis.com/9d/85/e3/7ffdefd24c8bbd/US20220101182A1.pdf
 # url_code: 'https://github.com/sambaranban/ONE?utm_source=catalyzex.com'
 # url_dataset: '#'
