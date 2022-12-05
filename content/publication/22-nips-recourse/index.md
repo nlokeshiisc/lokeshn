@@ -32,12 +32,13 @@ featured: true
 # links:
 # - name: Paper
 #   url: 
-# url_pdf: https://dl.acm.org/doi/abs/10.1145/3336191.3371788
+url_pdf: 'uploads/papers/img_recourse/recourse.pdf'
 # url_code: 'https://github.com/sambaranban/ONE?utm_source=catalyzex.com'
 # url_dataset: '#'
 # url_poster: 'uploads/papers/one/poster.pdf'
 # url_project: ''
-# url_slides: 'uploads/papers/one/one.pdf'
+url_slides: 'uploads/papers/img_recourse/recourse-short.pdf'
+url_slides: 'uploads/talks/adobe_talk_slides.pdf'
 # url_source: '#'
 # url_video: 'https://slideslive.com/38949109/game-of-gradients-mitigating-irrelevant-clients-in-federated-learning'
 
