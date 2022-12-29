@@ -73,7 +73,7 @@ email: ""
 highlight_name: false
 ---
 
-Hi! I am a First Year PhD studnet with IIT Bombay, India. I joined PhD in the year 2021 and am fortunate to be advised by Prof. [Sunita Sarawagi](https://www.cse.iitb.ac.in/~sunita/) and Prof. [Abir De](https://abir-de.github.io/). I work in the areas of Causal Inference and Algorithmic Recourse. My PhD is generously funded by the [Prime Minister Research Fellowship](https://pmrf.in/).
+Hi! I am a Third Year PhD studnet with IIT Bombay, India. I joined PhD in the year 2021 and am fortunate to be advised by Prof. [Sunita Sarawagi](https://www.cse.iitb.ac.in/~sunita/) and Prof. [Abir De](https://abir-de.github.io/). I work in the areas of Causal Inference and Algorithmic Recourse. My PhD is generously funded by the [Prime Minister Research Fellowship](https://pmrf.in/).
 
 Prior to IITB, I spent about 1.5 years with IBM Research working on cutting edge topics like Federated learning, assessing data quality metrics, aggregating user preferences etc. Prior to that, I completed masters from IISc Bangalore. I worked with Prof. [M Narasimha Murty](https://www.csa.iisc.ac.in/people/people-faculty-mnm.html) on finding outlier robust representations of nodes in Social Networks.
 
