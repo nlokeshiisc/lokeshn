@@ -23,7 +23,7 @@ publication_short: USPTO
 
 abstract: Techniques for generating machine learning training data which corresponds to one or more downstream tasks are disclosed. In one example, a computer implemented method comprises generating one or more synthetic data instances for training a machine learning model, and determining a value of respective ones of the one or more synthetic data instances with respect to at least one task. One or more additional synthetic data instances for training the machine learning model are generated based at least in part on the values of the respective ones of the one or more synthetic data instances.
 # Summary. An optional shortened abstract.
-summary: Synthesizing data tareted towards a specific task.
+summary: Generating training datasets specific to a downstream ML task.
 tags:
 - Source Themes
 featured: true
