@@ -1,5 +1,5 @@
 ---
-title: "Training sample set generation from imbalanced data in view of user goals"
+title: "Federated Learning Data Source selection"
 authors:
 - Lokesh Nagalapatti
 - Ruhi Sharma Mittal
