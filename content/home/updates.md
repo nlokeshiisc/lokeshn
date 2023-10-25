@@ -10,10 +10,14 @@ subtitle: ""
 # Order that this section will appear in.
 weight: 30
 ---
-
+- :page_with_curl: Gradient Coresets for Federated Learning accepted as a full paper at WACV'24
+- :loud_sound: Delivered a Talk on "Causal Inference" at Amex Bangalore.
+- :loud_sound: Co-taught a Machine Learning course for Master's level students at the CSE Dept, VJTI Mumbai.
+- :loud_sound: Co-taught a course on Machine Learning (Theory/Lab) for the UG students of CSE Dept, at SSN College of Engg, Chennai
 - :loud_sound: Presented a Tutorial on [Gaussian Process](https://nlokesh.netlify.app/uploads/talks/gaussian_processes_tutorial.pdf) in CS 337.
 - :loud_sound: Delivered an invited talk on "Learning Recourse on instance environment" at Adobe Research
 - :page_with_curl: Learning Recourse on instance environment to enhance prediction accuracy accepted at NeurIPS'22
+- :loud_sound: Delivered a talk on [Optimal Transport](https://nlokesh.netlify.app/uploads/talks/optimal_transport.pptx) at the CSE Dept, IIT Bombay 
 - :memo: Serving in the PC of AAAI 2023 Research track
 - :memo: Serving in the PC of AIMLSystems 2022 Research track
 - :mega:Teaching [Linear Algebra](https://gate.nptel.ac.in/mentor_sessions.html) for GATE in NPTEL. [Videos](https://www.youtube.com/channel/UCf_xCyK6V3vqCa38oZnOcLQ) available here! 
