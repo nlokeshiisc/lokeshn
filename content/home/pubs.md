@@ -16,7 +16,7 @@ content:
   # Page type to display. E.g. post, talk, publication...
   page_type: publication
   # Choose how many pages you would like to display (0 = all pages)
-  count: 0
+  count: 100
   # Filter on criteria
   filters:
     author: ""
@@ -35,4 +35,4 @@ design:
   view: 3
 ---
 
-<!-- For all pubs, check out my scholar page! -->
+<!-- For all pubs, check out my scholar page!  -->
