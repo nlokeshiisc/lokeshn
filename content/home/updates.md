@@ -10,6 +10,7 @@ subtitle: ""
 # Order that this section will appear in.
 weight: 30
 ---
+- :page_with_curl: Continuous Treatment Effect estimation using Gradient Interpolation and Kernel Smoothing accepted to AAAI-24.
 - :page_with_curl: Gradient Coresets for Federated Learning accepted as a full paper at WACV'24
 - :loud_sound: Delivered a Talk on "Causal Inference" at Amex Bangalore.
 - :loud_sound: Co-taught a Machine Learning course for Master's level students at the CSE Dept, VJTI Mumbai.
