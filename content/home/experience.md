@@ -21,7 +21,18 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+
+
 experience:
+    - title: Research Intern
+    company: Microsoft Research, India
+    company_url: 'https://www.microsoft.com/en-us/research/lab/microsoft-research-india/'
+    company_logo: org-msri
+    location: Bangalore, India
+    date_start: '2024-05-06'
+    date_end: '2024-08-08'
+    description: Worked on Root Cause Analysis of anomalies that occur in an industry.
+
   - title: Blue Scholar
     company: IBM Research Labs
     company_url: 'https://www.research.ibm.com/labs/india/'

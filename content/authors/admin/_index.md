@@ -18,9 +18,10 @@ bio: My research interests include ML, Causal Inference and Algorithmic Recourse
 
 # Interests to show in About widget
 interests:
-- ML
+- Machine Learning in general
 - Causal Inference
 - Algorithmic Recourse
+- Federated Learning
 
 # Education to show in About widget
 education:
@@ -73,9 +74,9 @@ email: ""
 highlight_name: false
 ---
 
-Hi! I'm currently in my third year of the PhD program at IIT Bombay, India. I started my PhD journey in 2021 and have the privilege of being guided by Prof. [Sunita Sarawagi](https://www.cse.iitb.ac.in/~sunita/) and Prof. [Abir De](https://abir-de.github.io/). My research primarily focuses on the fields of Causal Inference and Algorithmic Recourse. I am grateful to have my PhD studies funded by the [Prime Minister Research Fellowship](https://pmrf.in/).
+Hi! I am currently in the fourth year of my PhD at IIT Bombay, India. I started my PhD in 2021 and have the privilege of being guided by Prof. [Sunita Sarawagi](https://www.cse.iitb.ac.in/~sunita/) and Prof. [Abir De](https://abir-de.github.io/). My research primarily focuses on the fields of Causal Inference and Algorithmic Recourse. I am grateful to have my PhD studies funded by the [Prime Minister Research Fellowship](https://pmrf.in/).
 
-Prior to joining IIT Bombay, I gained invaluable experience during my 1.5-year stint at IBM Research. There, I had the opportunity to work on cutting-edge topics, such as Federated Learning, data quality metrics assessment, and user preference aggregation. Before that, I completed my Master's degree at IISc Bangalore. During my time at IISc, I worked with Prof. [M Narasimha Murty](https://www.csa.iisc.ac.in/people/people-faculty-mnm.html) on the development of robust representations for nodes in Social Networks, with a specific focus on handling outliers.
+Prior to joining IIT Bombay, I worked with IBM Research for about 1.5 year on topics such as Federated Learning, data quality metrics assessment, and user preference aggregation. Before that, I completed my Master's degree at IISc Bangalore. During my time at IISc, I worked with Prof. [M Narasimha Murty](https://www.csa.iisc.ac.in/people/people-faculty-mnm.html) on the development of robust representations for nodes in Social Networks, with a specific focus on handling outliers.
 
 
 <!-- Prior to joining IITB, I worked with IBM Research Labs for about 1.5 years. There, I worked on a variety of topics including Federated Learning, testing ML models, assessing data quality, aggregating user preferences in social networks etc.
