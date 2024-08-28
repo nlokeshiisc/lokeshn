@@ -24,7 +24,7 @@ date_format: Jan 2006
 
 
 experience:
-    - title: Research Intern
+  - title: Research Intern
     company: Microsoft Research, India
     company_url: 'https://www.microsoft.com/en-us/research/lab/microsoft-research-india/'
     company_logo: org-msri
