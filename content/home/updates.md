@@ -10,7 +10,13 @@ subtitle: ""
 # Order that this section will appear in.
 weight: 30
 ---
-- :memo: Reviewer at NeurIPS-24.
+- :memo: Reviewer for TMLR-25.
+- :memo: Reviewer for ICLR-25.
+- :page_with_curl:  Leveraging a Simulator for Learning Causal Representations from Post-Treatment Covariates for CATE accepted at TMLR-25.
+- :page_with_curl: Tab-Shapley: Identifying Top-k Tabular Data Quality Insights accepted at AAAI-25.
+- :dollar: Thankful to PMRF for travel grant to attend Neurips-24 at Vienna.
+- :page_with_curl: Leveraging a Simulator for Learning Causal Representations from Post-Treatment Covariates for CATE accepted at CRL workshop in NrurIPS-24.
+- :memo: Reviewer for NeurIPS-24.
 - :dollar: Thankful to Microsoft Research India for travel grant to attend ICML-24  at Vienna.
 - :maple_leaf: Started research internship at Microsoft Research India, working with [Amit Sharma](https://www.amitsharma.in/) on Root Cause Analysis. 
 - :page_with_curl: PairNet: Training with Observed Pairs to Estimate Individual Treatment Effect
@@ -24,7 +30,7 @@ weight: 30
 - :loud_sound: Delivered an invited talk on "Learning Recourse on instance environment" at Adobe Research
 - :page_with_curl: Learning Recourse on instance environment to enhance prediction accuracy accepted at NeurIPS'22
 - :loud_sound: Delivered a talk on [Optimal Transport](https://nlokesh.netlify.app/uploads/talks/optimal_transport.pptx) at the CSE Dept, IIT Bombay 
-- :memo: Reviewer at AAAI 2023 Research track
+- :memo: Reviewer for AAAI 2023 Research track
 - :memo: Serving in the PC of AIMLSystems 2022 Research track
 - :mega:Teaching [Linear Algebra](https://gate.nptel.ac.in/mentor_sessions.html) for GATE in NPTEL. [Videos](https://www.youtube.com/channel/UCf_xCyK6V3vqCa38oZnOcLQ) available here! 
 - :page_with_curl: Federated Learning with Relevant Data paper accepted at AAAI'22
