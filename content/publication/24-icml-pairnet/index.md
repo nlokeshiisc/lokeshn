@@ -1,8 +1,8 @@
 ---
 title: "PairNet: Training with Observed Pairs to Estimate Individual Treatment Effect"
 authors:
-- Lokesh Nagalapatti
-- Pranava Singhal
+- Lokesh Nagalapatti (=)
+- Pranava Singhal (=)
 - Avishek Ghosh
 - Sunita Sarawagi
 date: "2024-01-01"

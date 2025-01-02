@@ -1,8 +1,8 @@
 ---
 title: "Leveraging a Simulator for Learning Causal Representations from Post-Treatment Covariates for CATE"
 authors:
-- Lokesh Nagalapatti
-- Pranava Singhal
+- Lokesh Nagalapatti (=)
+- Pranava Singhal (=)
 - Avishek Ghosh
 - Sunita Sarawagi
 date: "2025-02-19"
@@ -15,7 +15,7 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: Transactions of Machine Learning Research
@@ -30,14 +30,14 @@ tags:
 featured: true
 
 links:
-- name: Long slides
-  url: 
-url_pdf:
+# - name: Long slides
+#   url: 
+url_pdf: 'https://openreview.net/forum?id=vmmgFW3ztz&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)'
 # url_code: 'https://github.com/sambaranban/ONE?utm_source=catalyzex.com'
 # url_dataset: '#'
-# url_poster: 'uploads/papers/one/poster.pdf'
+url_poster: 'uploads/posters/SimRec_Poster.pdf'
 # url_project: ''
-url_slides:
+# url_slides:
 # url_slides_long: 'uploads/talks/adobe_talk_slides.pdf'
 # url_source: '#'
 # url_video: 'https://slideslive.com/38949109/game-of-gradients-mitigating-irrelevant-clients-in-federated-learning'
