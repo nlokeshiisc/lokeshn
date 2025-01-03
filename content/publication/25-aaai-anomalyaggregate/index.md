@@ -1,11 +1,12 @@
 ---
-title: "Gradient Coresets for Federated Learning"
+title: "Tab-Shapley: Identifying Top-k Tabular Data Quality Insights"
 authors:
-- Durga Sivasubramanian (=)
-- Lokesh Nagalapatti (=)
-- Rishabh Iyer
-- Ganesh Ramakrishnan
-date: "2024-01-07"
+- Manisha Padala
+- Lokesh Nagalapatti
+- Atharv Tyagi 
+- Ramasuri Narayanam
+- Shiv Kumar Saini 
+date: "2025-02-19"
 doi: "TBD"
 
 # Schedule page publish date (NOT publication's date).
@@ -18,26 +19,26 @@ publishDate: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication:  IEEE/CVF Winter Conference on Applications of Computer Vision 
-publication_short: WACV'24
+publication: Association for the Advancement of Artificial Intelligence (AAAI)
+publication_short: AAAI'25
 
-abstract: Federated Learning (FL) serves as a pivotal technique for training machine learning models on decentralized data across multiple clients, encompassing edge devices with limited resources. The challenge lies in developing solutions that optimize computational, communication, and energy efficiency while upholding privacy constraints within the FL framework. Traditional approaches address these challenges through the selection of a weighted subset known as a coreset from the training dataset, proven to be resilient to data noise. However, these methods hinge on the aggregate statistics of the training data and lack seamless adaptability to the FL context. This paper introduces an innovative algorithm, Gradient-based Coreset for Robust and Efficient Federated Learning (GCFL), which strategically selects a coreset at each client only every K communication rounds, drawing updates exclusively from it and assuming the availability of a small validation dataset at the server. The proposed coreset selection technique proves highly adept at mitigating noise in clients' data, as evidenced by experiments on four real-world datasets. The results showcase that GCFL is (1) more computationally and energy efficient than FL, (2) resilient to various forms of noise in both feature space and labels, (3) ensures privacy of the validation dataset, and (4) introduces minimal communication overhead while delivering substantial performance gains, particularly in scenarios where clients' data exhibits noise.
+abstract: We present an unsupervised method for aggregating anomalies in tabular datasets by identifying the top-$k$ tabular data quality insights. Each insight consists of a set of anomalous attributes and the corresponding subsets of records that serve as evidence to the user. The process of identifying these insight blocks is challenging due to (i) the absence of labeled anomalies, (ii) the exponential size of the subset search space, and (iii) the complex dependencies among attributes, which obscure the true sources of anomalies. Simple frequency-based methods fail to capture these dependencies, leading to inaccurate results. To address this, we introduce Tab-Shapley, a cooperative game theory based framework that uses Shapley values to quantify the contribution of each attribute to the data's anomalous nature. While calculating Shapley values typically requires exponential time, we show that our game admits a closed-form solution, making the computation efficient. We validate the effectiveness of our approach through empirical analysis on real-world tabular datasets with ground-truth anomaly labels.
 
 # Summary. An optional shortened abstract.
-summary: Finding coresets in federated learning.
+summary: Identifying group anomalies (covering both columns and rows) in Tabular Data using Game theoretic models.
 tags:
 - Source Themes
 featured: true
 
 links:
-- name: Long slides
-  url: 
-url_pdf: 'uploads/papers/gcfl/gcfl_slides.pdf'
+# - name: Long slides
+#   url: 'uploads/talks/adobe_talk_slides.pdf'
+# url_pdf: 'https://arxiv.org/pdf/2406.03864'
 # url_code: 'https://github.com/sambaranban/ONE?utm_source=catalyzex.com'
 # url_dataset: '#'
-url_poster: 'uploads/papers/gcfl/gcfl_poster.pdf'
+# url_poster: 'uploads/papers/pairnet/icml_pairnet_poster.pdf'
 # url_project: ''
-url_slides: 'uploads/papers/gcfl/gcfl_slides.pptx'
+# url_slides: 'uploads/papers/img_recourse/slides-short.pdf'
 # url_slides_long: 'uploads/talks/adobe_talk_slides.pdf'
 # url_source: '#'
 # url_video: 'https://slideslive.com/38949109/game-of-gradients-mitigating-irrelevant-clients-in-federated-learning'
