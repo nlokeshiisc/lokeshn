@@ -1,5 +1,5 @@
 ---
-title: "Game of Gradients - Mitigating irrelevant clients in Federated Learning"
+title: "Leveraging a Simulator for Learning Causal Representations from Post-Treatment Covariates for CATE"
 authors:
 - admin
 - Ramasuri Narayanam
