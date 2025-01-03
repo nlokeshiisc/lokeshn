@@ -1,11 +1,11 @@
 ---
-title: "Gradient Coresets for Federated Learning"
+title: "Leveraging a Simulator for Learning Causal Representations from Post-Treatment Covariates for CATE"
 authors:
-- Durga Sivasubramanian (=)
 - Lokesh Nagalapatti (=)
-- Rishabh Iyer
-- Ganesh Ramakrishnan
-date: "2024-01-07"
+- Pranava Singhal (=)
+- Avishek Ghosh
+- Sunita Sarawagi
+date: "2025-01-07"
 doi: "TBD"
 
 # Schedule page publish date (NOT publication's date).
@@ -15,16 +15,16 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication:  IEEE/CVF Winter Conference on Applications of Computer Vision 
-publication_short: WACV'24
+publication:  Transactions of Machine Learning Research
+publication_short: TMLR'25
 
-abstract: Federated Learning (FL) serves as a pivotal technique for training machine learning models on decentralized data across multiple clients, encompassing edge devices with limited resources. The challenge lies in developing solutions that optimize computational, communication, and energy efficiency while upholding privacy constraints within the FL framework. Traditional approaches address these challenges through the selection of a weighted subset known as a coreset from the training dataset, proven to be resilient to data noise. However, these methods hinge on the aggregate statistics of the training data and lack seamless adaptability to the FL context. This paper introduces an innovative algorithm, Gradient-based Coreset for Robust and Efficient Federated Learning (GCFL), which strategically selects a coreset at each client only every K communication rounds, drawing updates exclusively from it and assuming the availability of a small validation dataset at the server. The proposed coreset selection technique proves highly adept at mitigating noise in clients' data, as evidenced by experiments on four real-world datasets. The results showcase that GCFL is (1) more computationally and energy efficient than FL, (2) resilient to various forms of noise in both feature space and labels, (3) ensures privacy of the validation dataset, and (4) introduces minimal communication overhead while delivering substantial performance gains, particularly in scenarios where clients' data exhibits noise.
+abstract: Treatment effect estimation involves assessing the impact of different treatments on individual outcomes. Current methods estimate Conditional Average Treatment Effect (CATE) using observational datasets where covariates are collected before treatment assignment and outcomes are observed afterward, under assumptions like positivity and unconfoundedness. In this paper, we address a scenario where both covariates and outcomes are gathered after treatment. We show that post-treatment covariates render CATE unidentifiable, and recovering CATE requires learning treatment-independent causal representations. Prior work shows that such representations can be learned through contrastive learning if counterfactual supervision is available in observational data. However, since counterfactuals are rare, other works have explored using simulators that offer synthetic counterfactual supervision. Our goal in this paper is to systematically analyze the role of simulators in estimating CATE. We analyze the CATE error of several baselines and highlight their limitations. We then establish a generalization bound that characterizes the CATE error from jointly training on real and simulated distributions, as a function of the real-simulator mismatch. Finally, we introduce SimPONet, a novel method whose loss function is inspired from our generalization bound. We further show how SimPONet adjusts the simulator’s influence on the learning objective based on the simulator’s relevance to the CATE task. We experiment with various DGPs, by systematically varying the real-simulator distribution gap to evaluate SimPONet’s efficacy against state-of-the-art CATE baselines.
 
 # Summary. An optional shortened abstract.
-summary: Finding coresets in federated learning.
+summary: Estimating CATE from post-treatment covariates leveraging a simulator that generates synthetic counterfactuals.
 tags:
 - Source Themes
 featured: true
@@ -32,12 +32,12 @@ featured: true
 links:
 - name: Long slides
   url: 
-url_pdf: 'uploads/papers/gcfl/gcfl_slides.pdf'
+url_pdf: 'https://openreview.net/forum?id=vmmgFW3ztz&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)'
 # url_code: 'https://github.com/sambaranban/ONE?utm_source=catalyzex.com'
 # url_dataset: '#'
-url_poster: 'uploads/papers/gcfl/gcfl_poster.pdf'
+url_poster: 'uploads/posters/SimRec_Poster.pdf'
 # url_project: ''
-url_slides: 'uploads/papers/gcfl/gcfl_slides.pptx'
+# url_slides: 'uploads/papers/gcfl/gcfl_slides.pptx'
 # url_slides_long: 'uploads/talks/adobe_talk_slides.pdf'
 # url_source: '#'
 # url_video: 'https://slideslive.com/38949109/game-of-gradients-mitigating-irrelevant-clients-in-federated-learning'
