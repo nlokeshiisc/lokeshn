@@ -7,7 +7,7 @@ authors:
 - Ramasuri Narayanam
 - Shiv Kumar Saini 
 date: "2025-02-19"
-doi: "TBD"
+# doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -19,7 +19,7 @@ publishDate: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Association for the Advancement of Artificial Intelligence (AAAI)
+publication: Proceedings of the AAAI Conference on Artificial Intelligence
 publication_short: AAAI'25
 
 abstract: We present an unsupervised method for aggregating anomalies in tabular datasets by identifying the top-$k$ tabular data quality insights. Each insight consists of a set of anomalous attributes and the corresponding subsets of records that serve as evidence to the user. The process of identifying these insight blocks is challenging due to (i) the absence of labeled anomalies, (ii) the exponential size of the subset search space, and (iii) the complex dependencies among attributes, which obscure the true sources of anomalies. Simple frequency-based methods fail to capture these dependencies, leading to inaccurate results. To address this, we introduce Tab-Shapley, a cooperative game theory based framework that uses Shapley values to quantify the contribution of each attribute to the data's anomalous nature. While calculating Shapley values typically requires exponential time, we show that our game admits a closed-form solution, making the computation efficient. We validate the effectiveness of our approach through empirical analysis on real-world tabular datasets with ground-truth anomaly labels.
@@ -30,16 +30,15 @@ tags:
 - Source Themes
 featured: true
 
-links:
-# - name: Long slides
-#   url: 'uploads/talks/adobe_talk_slides.pdf'
-# url_pdf: 'https://arxiv.org/pdf/2406.03864'
+# links:
+# - name: Paper
+#   url: 
+# url_pdf: https://arxiv.org/pdf/1811.07609.pdf
 # url_code: 'https://github.com/sambaranban/ONE?utm_source=catalyzex.com'
 # url_dataset: '#'
-# url_poster: 'uploads/papers/pairnet/icml_pairnet_poster.pdf'
+# url_poster: 'uploads/papers/one/poster.pdf'
 # url_project: ''
-# url_slides: 'uploads/papers/img_recourse/slides-short.pdf'
-# url_slides_long: 'uploads/talks/adobe_talk_slides.pdf'
+# url_slides: 'uploads/papers/one/one.pdf'
 # url_source: '#'
 # url_video: 'https://slideslive.com/38949109/game-of-gradients-mitigating-irrelevant-clients-in-federated-learning'
 
