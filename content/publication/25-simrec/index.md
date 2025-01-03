@@ -3,8 +3,8 @@ title: "Leveraging a Simulator for Learning Causal Representations from Post-Tre
 authors:
 - admin
 - Ramasuri Narayanam
-date: "2025-05-18"
-doi: "2025-05-18"
+date: "2024-05-18"
+doi: "2024-05-18"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
