@@ -10,7 +10,8 @@ subtitle: ""
 # Order that this section will appear in.
 weight: 30
 ---
-
+- :page_with_curl: *Robust Root Cause Diagnosis using In-Distribution Interventions* accepted at ICLR-25.
+- :page_with_curl: *From Search to Sampling: Generative Models for Robust Algorithmic Recourse* accepted at ICLR-25.
 - :memo: Reviewer for TMLR-25.
 - :memo: Reviewer for ICLR-25.
 - :page_with_curl: *Leveraging a Simulator for Learning Causal Representations from Post-Treatment Covariates for CATE* accepted at TMLR-25.

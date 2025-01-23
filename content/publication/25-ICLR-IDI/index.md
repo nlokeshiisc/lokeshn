@@ -1,12 +1,11 @@
 ---
-title: "Tab-Shapley: Identifying Top-k Tabular Data Quality Insights"
+title: "Robust Root Cause Diagnosis using In-Distribution Interventions"
 authors:
-- Manisha Padala
 - Lokesh Nagalapatti
-- Atharv Tyagi 
-- Ramasuri Narayanam
-- Shiv Kumar Saini 
-date: "2025-01-01"
+- Ashutosh Srivastava
+- Sunita Sarawagi
+- Amit Sharma
+date: "2025-01-02"
 doi: "TBD"
 
 # Schedule page publish date (NOT publication's date).
@@ -19,13 +18,13 @@ publishDate: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Association for the Advancement of Artificial Intelligence (AAAI)
-publication_short: AAAI'25
+publication:  International Conference on Learning Representations (ICLR)
+publication_short: ICLR'25
 
-abstract: We present an unsupervised method for aggregating anomalies in tabular datasets by identifying the top-$k$ tabular data quality insights. Each insight consists of a set of anomalous attributes and the corresponding subsets of records that serve as evidence to the user. The process of identifying these insight blocks is challenging due to (i) the absence of labeled anomalies, (ii) the exponential size of the subset search space, and (iii) the complex dependencies among attributes, which obscure the true sources of anomalies. Simple frequency-based methods fail to capture these dependencies, leading to inaccurate results. To address this, we introduce Tab-Shapley, a cooperative game theory based framework that uses Shapley values to quantify the contribution of each attribute to the data's anomalous nature. While calculating Shapley values typically requires exponential time, we show that our game admits a closed-form solution, making the computation efficient. We validate the effectiveness of our approach through empirical analysis on real-world tabular datasets with ground-truth anomaly labels.
+abstract: Diagnosing the root cause of an anomaly in a complex interconnected system is a pressing problem in today's cloud services and industrial operations. Effective root cause diagnosis calls for identifying nodes whose disrupted local mechanisms cause anomalous behavior at a target node. We propose In-Distribution Interventions (IDI), a novel algorithm that predicts root cause as nodes that meet two criteria -- 1) `Anomaly` root cause nodes should take on anomalous values; 2) `Fix` had the root cause nodes assumed usual values, the target node would not have been anomalous. Prior methods of assessing the fix condition rely on counterfactuals inferred from a Structural Causal Model (SCM) trained on historical data. But since anomalies are rare and fall outside the training distribution, the fitted SCMs yield unreliable counterfactual estimates. IDI overcomes this by relying on interventional estimates obtained by solely probing the fitted SCM at in-distribution inputs. Our theoretical analysis demonstrates that IDI's in-distribution intervention approach outperforms other counterfactual estimation methods whenever variance of the underlying latent exogenous variables is low. Experiments on both synthetic and Petshop RCD benchmark datasets demonstrate that IDI consistently identifies true root causes more accurately and robustly than nine existing state-of-the-art RCD baselines.
 
 # Summary. An optional shortened abstract.
-summary: Identifying group anomalies (covering both columns and rows) in Tabular Data using Game theoretic models.
+summary: Identifying root cause of anomalies using interventions rather estimated from a learned SCM
 tags:
 - Source Themes
 featured: true
@@ -33,7 +32,7 @@ featured: true
 links:
 # - name: Long slides
 #   url: 'uploads/talks/adobe_talk_slides.pdf'
-url_pdf: 'https://arxiv.org/pdf/2501.06685'
+url_pdf: 'https://openreview.net/forum?id=l11DZY5Nxu&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)'
 # url_code: 'https://github.com/sambaranban/ONE?utm_source=catalyzex.com'
 # url_dataset: '#'
 # url_poster: 'uploads/papers/pairnet/icml_pairnet_poster.pdf'

@@ -1,12 +1,10 @@
 ---
-title: "Tab-Shapley: Identifying Top-k Tabular Data Quality Insights"
+title: "From Search to Sampling: Generative Models for Robust Algorithmic Recourse"
 authors:
-- Manisha Padala
+- Prateek Garg
 - Lokesh Nagalapatti
-- Atharv Tyagi 
-- Ramasuri Narayanam
-- Shiv Kumar Saini 
-date: "2025-01-01"
+- Sunita Sarawagi 
+date: "2025-01-02"
 doi: "TBD"
 
 # Schedule page publish date (NOT publication's date).
@@ -19,13 +17,13 @@ publishDate: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Association for the Advancement of Artificial Intelligence (AAAI)
-publication_short: AAAI'25
+publication:  International Conference on Learning Representations (ICLR)
+publication_short: ICLR'25
 
-abstract: We present an unsupervised method for aggregating anomalies in tabular datasets by identifying the top-$k$ tabular data quality insights. Each insight consists of a set of anomalous attributes and the corresponding subsets of records that serve as evidence to the user. The process of identifying these insight blocks is challenging due to (i) the absence of labeled anomalies, (ii) the exponential size of the subset search space, and (iii) the complex dependencies among attributes, which obscure the true sources of anomalies. Simple frequency-based methods fail to capture these dependencies, leading to inaccurate results. To address this, we introduce Tab-Shapley, a cooperative game theory based framework that uses Shapley values to quantify the contribution of each attribute to the data's anomalous nature. While calculating Shapley values typically requires exponential time, we show that our game admits a closed-form solution, making the computation efficient. We validate the effectiveness of our approach through empirical analysis on real-world tabular datasets with ground-truth anomaly labels.
+abstract: Algorithmic Recourse provides recommendations to individuals who are adversely impacted by automated model decisions, on how to alter their profiles to achieve a favorable outcome. Effective recourse methods must balance three conflicting goals -- proximity to the original profile to minimize cost, plausibility for realistic recourse, and validity to ensure the desired outcome. We show that existing methods train for these objectives separately and then search for recourse through a joint optimization over the recourse goals during inference, leading to poor recourse recommendations. We introduce GenRe, a generative recourse model designed to train the three recourse objectives jointly. Training such generative models is non-trivial due to lack of direct recourse supervision. We propose efficient ways to synthesize such supervision and further show that GenRe's training leads to a consistent estimator. Unlike most prior methods, that employ non-robust gradient descent based search during inference, GenRe simply performs a forward sampling over the generative model to produce minimum cost recourse, leading to superior performance across multiple metrics. We also demonstrate GenRe provides the best trade-off between cost, plausibility and validity, compared to state-of-art baselines.
 
 # Summary. An optional shortened abstract.
-summary: Identifying group anomalies (covering both columns and rows) in Tabular Data using Game theoretic models.
+summary: We propose a generative model for recourse that outputs a distribution over likely recourse instances.
 tags:
 - Source Themes
 featured: true
@@ -33,7 +31,7 @@ featured: true
 links:
 # - name: Long slides
 #   url: 'uploads/talks/adobe_talk_slides.pdf'
-url_pdf: 'https://arxiv.org/pdf/2501.06685'
+url_pdf: 'https://openreview.net/forum?id=NtwFghsJne&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)'
 # url_code: 'https://github.com/sambaranban/ONE?utm_source=catalyzex.com'
 # url_dataset: '#'
 # url_poster: 'uploads/papers/pairnet/icml_pairnet_poster.pdf'
