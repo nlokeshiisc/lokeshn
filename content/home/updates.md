@@ -10,6 +10,7 @@ subtitle: ""
 # Order that this section will appear in.
 weight: 30
 ---
+- :loud_sound: Presented Root Cause Diagnosis using [In-Distribution Interventions (IDI)](https://docs.google.com/presentation/d/17dByl9AkIzr_8tYib0VbWqVEUFRYyQGekACNxb0KZ98/edit?usp=sharing) at RISC 2025.
 - :page_with_curl: *Robust Root Cause Diagnosis using In-Distribution Interventions* accepted at ICLR-25.
 - :page_with_curl: *From Search to Sampling: Generative Models for Robust Algorithmic Recourse* accepted at ICLR-25.
 - :memo: Reviewer for TMLR-25.
